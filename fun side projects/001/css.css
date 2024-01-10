@@ -1,0 +1,60 @@
+.title1 {
+    text-align: center;
+}
+
+body {
+    font-family: verdana;
+    background-color: rgb(58, 58, 58);
+    text-decoration-color: rgb(0, 0, 0);
+    font-style: normal;
+}
+
+a {
+    font-family: verdana;
+    text-decoration: dashed;
+    color: rgb(255, 0, 0);
+
+}
+
+.ahidden{
+    font-family: verdana;
+    text-decoration-color: black;
+}
+
+.italics1 {
+    font-style: italic;
+}
+
+dl {
+    font-style: oblique;
+    text-transform: capitalize;
+   
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+dd {
+ 
+    font-style: normal;
+    color: black;
+    font-size: 25px;
+}
+
+.pspecial {
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.459);
+    font-size: 23px;
+    text-align: left;
+}
+
+.funny {
+    color: red;
+}
+
+p {
+    text-align: center;
+    size: 25px;
+}
+
+.credits {
+    size: 30px;
+}
