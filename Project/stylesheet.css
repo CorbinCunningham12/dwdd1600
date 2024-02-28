@@ -37,12 +37,20 @@ a {
 }
 
 img {
-    
     padding: 5px;
     width: 150px;
     
 
     float: left;
+    
+  }
+
+  .imgspecial {
+    padding: 5px;
+    width: 75%;
+    
+
+    float: center;
   }
 
 
