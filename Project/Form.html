@@ -34,10 +34,10 @@
                 <input type="name" name="text" required> <br>
             
                 <label for="email">Email:</label>
-                <input type="email" name="email"> <br>
+                <input type="email" name="email" required> <br>
 
                 <label for="tel">Phone-number:</label>
-                <input type="tel" name="telephone"> <br>
+                <input type="tel" name="telephone" required> <br>
 
                 <label for="radio">I have no idea:</label> <br>
                 <input type="radio" name="???"> <br>
@@ -47,14 +47,14 @@
             </fieldset>
 
             <fieldset>
-                <h3>Select which you like better:</h3>
+                <h3>Select which you like:</h3>
 
                 <label for="checkbox1">Tom Clancy's Rainbow Six Seige</label>
-                <input type="checkbox" required> <br>
+                <input type="checkbox"> <br>
                 <label for="checkbox2">Team Fortress 2</label>
                 <input type="checkbox" required> <br>
                 <label for="checkbox3">Hell Divers 2</label>
-                <input type="checkbox" required>
+                <input type="checkbox">
             </fieldset>
             
             <fieldset>
@@ -64,8 +64,10 @@
 
 
                 <label for="textarea">What:</label><br>
-                <textarea name="textarea" id="" cols="30" rows="10"></textarea>
+                <textarea name="textarea" id="" cols="30" rows="10" required></textarea>
             </fieldset>
+
+            <input type="submit" class="submitfunny">
           
         </form>
 

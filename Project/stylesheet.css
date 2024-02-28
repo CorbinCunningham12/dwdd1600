@@ -162,10 +162,25 @@ legend {
     padding: 1%;
     text-align: center;
     
+    
 }
 .formguy {
     text-align: center;
 }
-
+.submitfunny {
+    background-color: #f1f1f1;
+    
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.submitfunny:hover{
+    background-color: red;
+    color: white;
+    
+}
 
 
