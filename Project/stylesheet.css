@@ -1,9 +1,30 @@
 /* #region Desktop */
 
+body {
+    font-weight: 100;
+    font-family: 'Arial Narrow Bold', sans-serif;
+
+    text-align: center;
+    
+    
+}
+
+header {
+    max-width: 100vw;
+}
+
+main {
+    max-width: 100vw;
+}
+
+footer {
+    max-width: 100vw;
+}
+
 /* #region Header */
 .funni {
     color: white;
-    font-size: 7vw;;
+    
     margin-left: auto;
     margin-right: auto;
     margin-top: 0mm;
@@ -11,8 +32,17 @@
     padding: 5;
     text-align: center;
     background-color: red;
+
+    font-size: 8rem;
+
     
 }
+@media (max-width:800px) {
+    .funni {
+        font-size: 4rem;
+    }
+} 
+
 
 
 
@@ -30,21 +60,24 @@ h2 {
 
 .funnimann {
 
-    margin: auto;
+    margin: 1vw;
     display: block;
     
     padding: 0%;
 
-    width: auto;
-    max-width: 500px;
-    height: auto;
+    width: 20vw;
+    max-width: 100px;
+    height: 20vw;
+    max-height: 100px;
 
     filter: brightness(150%);
 
     border: solid;
     border-color: white;
-    border-width: 1rem;
+    border-width: .5rem;
 
+
+    
     
 }
 
@@ -55,9 +88,15 @@ h2 {
 
 .section {
     
-    background-image: linear-gradient(white, red);
+    /* background-image: linear-gradient(white, red); */
+    background-color: red;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    
+
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
     
 }
 .basedImg {
@@ -79,29 +118,21 @@ h2 {
 
 /* #endregion */
 
-/* #region SubHeader */
-
-
-
-/* #endregion */
 
 
 
 /* #region Body */
 
-body {
-    font-weight: 100;
-    font-family: 'Arial Narrow Bold', sans-serif;
-    
-}
+
 
 p {
     color: black;
+    
 }
 
 a {
+    color: red;
     
-
 }
 
 img {
@@ -121,9 +152,53 @@ img {
     float: center;
 }
 
+.cavey {
+    margin: 1vw;
+    display: block;
+    
+    padding: 0px;
+
+    width: 15vw;
+    max-width: 500px;
+    height: 20vw;
+    max-height: 500px;
+
+    
+
+    border: solid;
+    border-color: red;
+    border-width: .5rem;
+}
+
+.audioboi {
+    border: solid;
+    border-color: red;
+    border-width: .5rem;
+
+    border-radius: 100px;
+
+    
+}
+
+.caveyName {
+    color: black;
+   
+}
+
+.founderSect {
+    background-color: white;
+}
+
+.caveyflex {
+    display: flex;
+    justify-content: center;
+}
+
 figure {
     border: 1%;
     border-style: groove;
+
+    
 
 }
 
@@ -156,6 +231,8 @@ nav {
    
     display: flexbox;
     flex-wrap: nowrap;
+
+    justify-content: center;
     
 }
 
@@ -172,13 +249,26 @@ nav {
 figure {
     border: 1px solid;
     padding: 10px;
-    box-shadow: 5px 10px red;
-    background-color: rgb(100, 255, 255);
+    box-shadow: 5px 10px grey;
+    background-color: lightblue;
+    
+
+    background-image: linear-gradient(lightblue, rgb(102, 90, 156));
 }
+
+figure>img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
 figure:hover{
     border: 1px solid;
     padding: 10px;
-    box-shadow: 5px 10px purple;
+    box-shadow: 5px 10px red;
+    background-color: white;
+
+    background-image: linear-gradient(white, red);
 }
 
 
@@ -233,8 +323,9 @@ nav>div>ul>li>a:hover {
       flex-direction: column;
     }
 
-
-
+    .flex-container {
+        flex-direction: column;
+    }
   }
 
 /* #region misc */
@@ -243,6 +334,9 @@ nav>div>ul>li>a:hover {
 
 .hidden {
     color: black;
+    text-decoration: none;
+}
+.hiddenH {
     text-decoration: none;
 }
 
