@@ -1,0 +1,294 @@
+/* #region Desktop */
+
+/* #region Header */
+.funni {
+    color: white;
+    font-size: 7vw;;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0mm;
+    margin-bottom: 5mm;
+    padding: 5;
+    text-align: center;
+    background-color: red;
+    
+}
+
+
+
+h1 {
+    text-align: center;
+    
+    
+}
+
+h2 {
+    text-align: center;
+    
+    
+}
+
+.funnimann {
+
+    margin: auto;
+    display: block;
+    
+    padding: 0%;
+
+    width: auto;
+    max-width: 500px;
+    height: auto;
+
+    filter: brightness(150%);
+
+    border: solid;
+    border-color: white;
+    border-width: 1rem;
+
+    
+}
+
+.funniheader {
+    background-color: red;
+    
+}
+
+.section {
+    
+    background-image: linear-gradient(white, red);
+    display: flex;
+    justify-content: center;
+    
+}
+.basedImg {
+    padding: 0%;
+
+    width: auto;
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+    display: block;
+    display: block;
+}
+.based {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* #endregion */
+
+/* #region SubHeader */
+
+
+
+/* #endregion */
+
+
+
+/* #region Body */
+
+body {
+    font-weight: 100;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    
+}
+
+p {
+    color: black;
+}
+
+a {
+    
+
+}
+
+img {
+    padding: 5px;
+    width: 150px;
+    
+
+    float: left;
+    
+}
+
+.imgspecial {
+    padding: 5px;
+    width: 75%;
+    
+
+    float: center;
+}
+
+figure {
+    border: 1%;
+    border-style: groove;
+
+}
+
+.cearbot {
+    clear: both;
+}
+
+.specialboy {
+    font-size: xx-small;
+    
+}
+
+.funnyy {
+    max-width: 2000in;
+    height: 2256in;
+}
+/* #endregion */
+
+/* #region Nav */
+nav {
+    background-color: rgba(165, 165, 165, 0.397);
+}
+
+.no-bullets {
+    list-style-type: none;
+    text-align: center;
+}
+
+.flex-container {
+   
+    display: flexbox;
+    flex-wrap: nowrap;
+    
+}
+
+.flex-containerIMG {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    
+
+}
+
+figure {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px red;
+    background-color: rgb(100, 255, 255);
+}
+figure:hover{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px purple;
+}
+
+
+
+/*this is a comment*/
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+nav>div>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+  nav>div>ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+nav>div>ul>li {
+    display: inline-block;
+    border-style: ridge;
+    
+    background-color: lightgrey;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 100;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+  /*this is a comment*/
+  
+  /*pseudo-class*/
+nav>div>ul>li>a:hover {
+    background-color: red;
+    color: white;
+    
+}
+
+
+
+/* #endregion */
+
+@media screen and (max-width: 800px) {
+    .flex-containerIMG {
+      flex-direction: column;
+    }
+
+
+
+  }
+
+/* #region misc */
+
+
+
+.hidden {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+fieldset {
+    background-color: lightgrey;
+    text-align: center;
+    align-items: center;
+}
+
+legend {
+    background-color: red;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    
+    
+}
+.formguy {
+    text-align: center;
+}
+.submitfunny {
+    background-color: #f1f1f1;
+    
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3%;
+    border-radius: 20%;
+    
+}
+.submitfunny:hover{
+    background-color: red;
+    color: white;
+    
+}
+
+/* #endregion */
+
+
+/* #endregion */
+
+
+
+
+
+
