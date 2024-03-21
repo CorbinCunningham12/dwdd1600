@@ -1,0 +1,77 @@
+
+/* #region Desktop */
+
+
+
+/* #region body */
+
+    body {
+        font-family: Verdana;
+    }
+
+
+
+
+
+/* #endregion */
+
+
+
+/* #region header */
+
+    .titleCard {
+        text-align: center;
+        background-color: lightgray;
+    }
+    div>h1 {
+        width: auto;
+        height: auto;
+
+        margin-bottom: 0px;
+
+        font-size: 5vw;
+
+        background-color: rgb(180, 180, 180);
+    }
+    div>h3 {
+        margin: auto;
+    }
+
+
+
+
+
+/* #endregion */
+
+/* #region nav */
+
+    .navigationBar {
+
+    }
+
+/* #endregion */
+
+
+/* #region misc */
+
+
+/* #endregion */
+
+
+
+/* #endregion */
+
+
+/* #region Mobile */
+
+/* #region general */
+
+
+/* #endregion */
+
+/* #region header */
+
+
+/* #endregion */
+
+/* #endregion */
