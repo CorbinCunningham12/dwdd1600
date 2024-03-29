@@ -114,6 +114,17 @@ h2 {
     justify-content: center;
 }
 
+.download1 {
+    border: 1rem solid red;
+}
+
+.googleman {
+    width: 60vw;
+    height: 30vw;
+
+    border: 1rem solid red;
+
+}
 
 
 /* #endregion */
@@ -122,6 +133,7 @@ h2 {
 
 
 /* #region Body */
+
 
 
 
@@ -316,6 +328,10 @@ nav>div>ul>li>a:hover {
 
 
 
+
+
+
+
 /* #endregion */
 
 @media screen and (max-width: 800px) {
@@ -329,6 +345,54 @@ nav>div>ul>li>a:hover {
   }
 
 /* #region misc */
+
+.tableguygreat{
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    color: black;
+}
+.tableguygreat, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: .5rem 2vw;
+}
+.tableguygreat tr:hover{
+    background-color: rgba(255, 0, 0, .3);
+}
+.tableguygreat>th{
+    
+    
+}
+table.our-activities td{
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
