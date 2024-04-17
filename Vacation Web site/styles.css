@@ -3,24 +3,29 @@ body {
     font-family: Verdana;
     background-color: #551A92;
 }
+
 a {
     text-decoration: none;
     
 }
 .headnav {
-    background-color: rgb(183, 253, 174, 1);
+    
+    background-color:rgba(0, 0, 0, 0.6);
+    
 }
 
 
-/* #region navigation */
+/* #region header */
 
 .headerFlex {
     display: flex;
     justify-content: center;
+
+    
 }
 h1 {
     border: solid 5px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding-bottom: 5px;
     margin: 0px;
     padding-left: 10px;
@@ -68,7 +73,7 @@ h1 {
     border-color: black;
     border-width: 5px;
 
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(255, 255, 255);
 
     padding: 5px;
 
@@ -76,13 +81,47 @@ h1 {
 }
 
 .navigation>ul :hover {
-    
     background-color: rgb(128, 128, 128);
-    
-
-
-    
 }
+
+
+
+
+/* #endregion */
+
+
+/* #region main */
+
+.backgroundMain {
+    background-image: url(images/beachfront-view-at-hawaiian-islands-humpback-whale-national-marine-sanctuary_800.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.darkbackground {
+    background-color:rgba(0, 0, 0, 0.6);
+
+    padding-top: 1vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.mainContent {
+    
+    background-color: white;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+
+    text-align: center;
+
+
+}
+.mainContent>h3 {
+    text-align: center;
+}
+
+
 
 
 
