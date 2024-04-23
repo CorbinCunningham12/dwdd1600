@@ -153,13 +153,38 @@ iframe {
     justify-content: center;
 }
 .packages>figure {
+    display: block;
     background-color: rgb(255, 255, 255);
     border-style: ridge;
     border-color: black;
     margin: 5px;
+    
+
+    width: 200px;
+    height: auto;
 }
+.packages>figure>h3{
+    border: ridge 5px black;
+    border-left: none;
+    border-right: none;
+    background-color: lightgray;
+}
+.packages>figure>p {
+    
+    text-wrap: right;
 
 
+}
+.packages>figure>img {
+    width: 160px;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.funnySmall {
+    font-size: 10px;
+}
 
 /* #endregion */
 
