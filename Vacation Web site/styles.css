@@ -122,9 +122,42 @@ h1 {
 .mainContent>h3 {
     text-align: center;
 }
-
-
-
+.galleryHolder{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.gallery {
+    background-color: rgb(255, 255, 255);
+    border-style: ridge;
+    border-color: black;
+    margin: 5px;
+    
+    
+}
+.gallery>img {
+    width: 200px;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+iframe {
+    width: 100%;
+    
+}
+.packages {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.packages>figure {
+    background-color: rgb(255, 255, 255);
+    border-style: ridge;
+    border-color: black;
+    margin: 5px;
+}
 
 
 
