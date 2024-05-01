@@ -144,7 +144,10 @@ h1 {
     border: 0px;
 }
 iframe {
-    width: 100%;
+    width: 95%;
+    height: 23rem;
+    
+    
     
 }
 .packages {
@@ -159,8 +162,8 @@ iframe {
     border-color: black;
     margin: 5px;
     
-
-    width: 200px;
+    max-width: 200px;
+    
     height: auto;
 }
 .packages>figure>h3{
@@ -202,6 +205,40 @@ footer {
 .FooterBlend {
     background-color: white;
 }
+
+
+
+
+/* #endregion */
+
+
+
+
+
+/* #region mobile */
+
+@media only screen and (max-width: 600px) {
+    .backgroundMain {
+        background-image: none;
+        width: 100%;
+    }
+    .darkbackground {
+        background-color: white;
+    }
+    .spacing {
+        display: none;
+    }
+    body {
+         
+    }
+    .packages>figure {
+       width: 50vw;
+    }
+  }
+
+
+
+
 
 
 

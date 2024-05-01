@@ -227,6 +227,19 @@ figure {
     max-width: 2000in;
     height: 2256in;
 }
+
+iframe {
+    width: 100%;
+    height: auto;
+}
+
+.tables {
+    border: 5rem;
+    border-width: 5rem;
+    border-color: black;
+}
+
+
 /* #endregion */
 
 /* #region Nav */
@@ -302,7 +315,7 @@ nav>div>ul>li>a {
     color: black;
 }
 
-  nav>div>ul {
+nav>div>ul {
     text-align: center;
     list-style-type: none;
 }
